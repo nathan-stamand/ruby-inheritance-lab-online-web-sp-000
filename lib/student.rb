@@ -9,7 +9,9 @@ class Student < User
     @knowledge << book_learnin
   end 
   
-    
+  def knowledge 
+    @knowledge
+  end
     
 
 end
